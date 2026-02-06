@@ -12,7 +12,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "check": "ultracite check",
-    "fix": "ultracite fix"
+    "check": "bun x biome check --write",
+    "fix": "bun x biome format --write"
   }
 }
